@@ -1,6 +1,7 @@
+
 import SideNav from '@/app/ui/dashboard/sidenav'
 
-// Layout - ийг давуу тал нь children дээр байгаа component - ууд render хийж байхад Layout render хийгдэдгүй байна.
+// Layout - ийн давуу тал нь children дээр байгаа component - ууд render хийж байхад Layout render хийгдэдгүй байна
 
 export  default function Layout  ({children} : {children:React.ReactNode}) {
     return (
